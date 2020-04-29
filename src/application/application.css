@@ -1,0 +1,24 @@
+.root {
+	-fx-background-color: #1e1e22;
+	-fx-font-size: 24px;
+	-fx-alignment: center;
+	-fx-hgap: 16px;
+	-fx-vgap: 8px;
+}
+
+.label {
+	-fx-text-alignment: center;
+	-fx-text-fill: #e1e1dd;
+}
+
+.button {
+	-fx-background-color: rgba(247, 180, 44, 1);
+	-fx-text-fill: #1e1e22;
+	-fx-font-weight: bold;
+	-fx-effect: dropshadow(gaussian, rgba(247, 180, 44, 0.2), 8, 0, 0, 4);
+}
+
+.button:hover {
+	-fx-background-color: rgba(222, 162, 40, 1);
+	-fx-effect: dropshadow(gaussian, rgba(247, 180, 44, 0.2), 12, 0, 0, 8);
+}
